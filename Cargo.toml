@@ -4,3 +4,17 @@ version = "0.1.0"
 edition = "2024"
 
 [dependencies]
+clap = { version = "4", features = ["derive"] }
+
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+
+json5 = "0.4"
+serde_yaml = "0.9"
+toml_edit = "0.22"
+
+indexmap = "2"        # 稳定顺序
+regex = "1"
+thiserror = "1"
+similar = "2"         # diff
+
